@@ -1,0 +1,165 @@
+13:26:19,641 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+13:26:21,286 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+13:26:21,477 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+13:26:24,684 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found spring-jee.war in deployment directory. To trigger deployment create a file called spring-jee.war.dodeploy
+13:26:24,771 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.10.GA-redhat-1
+13:26:24,776 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+13:26:24,778 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+13:26:25,016 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+13:26:25,044 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 52) JBAS013171: Activating Security Subsystem
+13:26:25,045 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) JBAS015537: Activating WebServices Extension
+13:26:25,047 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+13:26:25,042 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+13:26:25,060 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+13:26:25,061 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 47) JBAS011800: Activating Naming Subsystem
+13:26:25,068 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 43) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+13:26:25,086 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+13:26:25,630 INFO  [org.jboss.remoting] (MSC service thread 1-10) JBoss Remoting version (unknown)
+13:26:25,824 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 31) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+13:26:25,883 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-12) JBAS015400: Bound mail session [java:jboss/mail/Default]
+13:26:25,883 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+13:26:25,889 INFO  [org.jboss.jaxr] (MSC service thread 1-5) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+13:26:26,077 WARN  [jacorb.codeset] (MSC service thread 1-7) Warning - unknown codeset (MS950) - defaulting to ISO-8859-1
+13:26:26,388 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory D:\developenv\apserver\jboss-eap-6.3\standalone\deployments
+13:26:26,393 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "mysql5.1.34.jar" (runtime-name: "mysql5.1.34.jar")
+13:26:26,393 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015876: Starting deployment of "spring-jee.war" (runtime-name: "spring-jee.war")
+13:26:26,646 INFO  [org.jboss.as.jacorb] (MSC service thread 1-7) JBAS016330: CORBA ORB Service started
+13:26:26,660 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-16) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+13:26:26,682 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-16) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+13:26:26,698 INFO  [org.jboss.as.remoting] (MSC service thread 1-10) JBAS017100: Listening on 127.0.0.1:4447
+13:26:26,698 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on 127.0.0.1:9999
+13:26:26,798 INFO  [org.jboss.as.jacorb] (MSC service thread 1-10) JBAS016328: CORBA Naming Service started
+13:26:27,131 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-14) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+13:26:27,151 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=D:\developenv\apserver\jboss-eap-6.3\standalone\data\messagingjournal,bindingsDirectory=D:\developenv\apserver\jboss-eap-6.3\standalone\data\messagingbindings,largeMessagesDirectory=D:\developenv\apserver\jboss-eap-6.3\standalone\data\messaginglargemessages,pagingDirectory=D:\developenv\apserver\jboss-eap-6.3\standalone\data\messagingpaging)
+13:26:27,174 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221006: Waiting to obtain live lock
+13:26:27,224 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221013: Using NIO Journal
+13:26:27,448 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleConstructor$HandleAllArgsConstructor' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,448 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,449 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleConstructor$HandleRequiredArgsConstructor' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,449 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleLog$HandleCommonsLog' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,449 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleLog$HandleJulLog' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,449 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleLog$HandleLog4j2Log' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,450 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleLog$HandleLog4jLog' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,450 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleLog$HandleSlf4jLog' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,450 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.eclipse.handlers.HandleLog$HandleXSlf4jLog' for service type 'lombok.eclipse.EclipseAnnotationHandler'
+13:26:27,451 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleConstructor$HandleAllArgsConstructor' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,451 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleConstructor$HandleNoArgsConstructor' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,451 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleConstructor$HandleRequiredArgsConstructor' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,452 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleLog$HandleCommonsLog' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,452 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleLog$HandleJulLog' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,452 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleLog$HandleLog4j2Log' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,452 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleLog$HandleLog4jLog' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,453 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleLog$HandleSlf4jLog' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,453 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.javac.handlers.HandleLog$HandleXSlf4jLog' for service type 'lombok.javac.JavacAnnotationHandler'
+13:26:27,453 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.launch.AnnotationProcessorHider$AnnotationProcessor' for service type 'javax.annotation.processing.Processor'
+13:26:27,454 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.core.Main$LicenseApp' for service type 'lombok.core.LombokApp'
+13:26:27,454 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.core.Main$VersionApp' for service type 'lombok.core.LombokApp'
+13:26:27,454 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.installer.Installer$CommandLineInstallerApp' for service type 'lombok.core.LombokApp'
+13:26:27,454 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.installer.Installer$CommandLineUninstallerApp' for service type 'lombok.core.LombokApp'
+13:26:27,455 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015893: Encountered invalid class name 'lombok.installer.Installer$GraphicalInstallerApp' for service type 'lombok.core.LombokApp'
+13:26:27,462 INFO  [org.jboss.as.jpa] (MSC service thread 1-9) JBAS011401: Read persistence.xml for jndi.test
+13:26:27,592 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221034: Waiting to obtain live lock
+13:26:27,593 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221035: Live Server Obtained live lock
+13:26:28,181 INFO  [org.jboss.ws.common.management] (MSC service thread 1-15) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+13:26:28,196 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+13:26:28,197 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+13:26:28,881 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010400: Bound data source [java:/jndi.test]
+13:26:28,928 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) JBAS011402: Starting Persistence Unit Service 'spring-jee.war#jndi.test'
+13:26:29,437 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221020: Started Netty Acceptor version 3.6.9.Final-redhat-1-4cc400c 127.0.0.1:5455 for CORE protocol
+13:26:29,441 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221020: Started Netty Acceptor version 3.6.9.Final-redhat-1-4cc400c 127.0.0.1:5445 for CORE protocol
+13:26:29,443 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221007: Server is now live
+13:26:29,444 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221001: HornetQ Server version 2.3.20.Final (2.3.20, 123) [433ec367-e321-11e4-8dd8-cb072d25ff82] 
+13:26:29,458 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+13:26:29,459 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 61) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+13:26:29,460 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+13:26:29,465 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+13:26:29,465 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221003: trying to deploy queue jms.queue.DLQ
+13:26:29,466 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+13:26:29,501 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-12) JBAS010406: Registered connection factory java:/JmsXA
+13:26:29,530 INFO  [org.hornetq.ra] (MSC service thread 1-12) HornetQ resource adaptor started
+13:26:29,531 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-12) IJ020002: Deployed: file://RaActivatorhornetq-ra
+13:26:29,532 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-15) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+13:26:30,361 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.1.Final-redhat-2}
+13:26:30,415 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.2.14.SP1-redhat-1}
+13:26:30,418 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+13:26:30,420 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+13:26:30,623 INFO  [org.hibernate.ejb.Ejb3Configuration] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: jndi.test
+	...]
+13:26:31,056 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (ServerService Thread Pool -- 59) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+13:26:31,607 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+13:26:31,896 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 59) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+13:26:31,904 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+13:26:32,054 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 59) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+13:26:32,788 INFO  [org.jboss.web] (ServerService Thread Pool -- 60) JBAS018210: Register web context: /spring-jee
+13:26:33,081 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "mysql5.1.34.jar" (runtime-name : "mysql5.1.34.jar")
+13:26:33,082 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 32) JBAS018559: Deployed "spring-jee.war" (runtime-name : "spring-jee.war")
+13:26:33,315 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+13:26:33,316 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+13:26:33,316 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 17812ms - Started 286 of 323 services (72 services are lazy, passive or on-demand)
+13:27:37,920 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] (http-localhost/127.0.0.1:8080-1) Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2dc6517: startup date [Wed Apr 15 13:27:37 CST 2015]; root of context hierarchy
+13:27:38,110 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (http-localhost/127.0.0.1:8080-1) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+13:27:38,196 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (http-localhost/127.0.0.1:8080-1) Building JPA container EntityManagerFactory for persistence unit 'jndi.test'
+13:27:38,196 INFO  [org.hibernate.ejb.Ejb3Configuration] (http-localhost/127.0.0.1:8080-1) HHH000204: Processing PersistenceUnitInfo [
+	name: jndi.test
+	...]
+13:27:38,205 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (http-localhost/127.0.0.1:8080-1) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+13:27:38,210 INFO  [org.hibernate.dialect.Dialect] (http-localhost/127.0.0.1:8080-1) HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+13:27:38,213 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (http-localhost/127.0.0.1:8080-1) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+13:27:38,214 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (http-localhost/127.0.0.1:8080-1) HHH000397: Using ASTQueryTranslatorFactory
+13:27:38,238 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (http-localhost/127.0.0.1:8080-1) Using JTA UserTransaction: org.jboss.tm.usertx.client.ServerVMClientUserTransaction@2b7522ba
+13:27:38,238 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (http-localhost/127.0.0.1:8080-1) Using JTA TransactionManager: com.arjuna.ats.jbossatx.jta.TransactionManagerDelegate@6ddb21f8
+13:27:38,238 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (http-localhost/127.0.0.1:8080-1) Using JTA TransactionSynchronizationRegistry: com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionSynchronizationRegistryImple@8fc291e
+13:27:38,260 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) com.test.CustomerServiceImpl@3675066f
+
+13:27:38,381 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/spring-jee].[com.test.MyHttpServlet]] (http-localhost/127.0.0.1:8080-1) JBWEB000236: Servlet.service() for servlet com.test.MyHttpServlet threw exception: java.lang.NullPointerException
+	at org.hibernate.engine.transaction.internal.jta.JtaStatusHelper.getStatus(JtaStatusHelper.java:73) [hibernate-core-4.2.14.SP1-redhat-1.jar:4.2.14.SP1-redhat-1]
+	at org.hibernate.engine.transaction.internal.jta.JtaStatusHelper.isActive(JtaStatusHelper.java:115) [hibernate-core-4.2.14.SP1-redhat-1.jar:4.2.14.SP1-redhat-1]
+	at org.hibernate.engine.transaction.internal.jta.CMTTransaction.join(CMTTransaction.java:149) [hibernate-core-4.2.14.SP1-redhat-1.jar:4.2.14.SP1-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.joinTransaction(AbstractEntityManagerImpl.java:1230) [hibernate-entitymanager-4.2.14.SP1-redhat-1.jar:4.2.14.SP1-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.postInit(AbstractEntityManagerImpl.java:178) [hibernate-entitymanager-4.2.14.SP1-redhat-1.jar:4.2.14.SP1-redhat-1]
+	at org.hibernate.ejb.EntityManagerImpl.<init>(EntityManagerImpl.java:89) [hibernate-entitymanager-4.2.14.SP1-redhat-1.jar:4.2.14.SP1-redhat-1]
+	at org.hibernate.ejb.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:193) [hibernate-entitymanager-4.2.14.SP1-redhat-1.jar:4.2.14.SP1-redhat-1]
+	at org.hibernate.ejb.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:188) [hibernate-entitymanager-4.2.14.SP1-redhat-1.jar:4.2.14.SP1-redhat-1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) [rt.jar:1.8.0]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) [rt.jar:1.8.0]
+	at java.lang.reflect.Method.invoke(Unknown Source) [rt.jar:1.8.0]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:388) [spring-orm-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:541) [spring-orm-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at com.sun.proxy.$Proxy30.createEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.doGetTransactionalEntityManager(EntityManagerFactoryUtils.java:282) [spring-orm-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:254) [spring-orm-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at com.sun.proxy.$Proxy34.find(Unknown Source)
+	at com.test.CustomerDaoImpl.findByKey(CustomerDaoImpl.java:21) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) [rt.jar:1.8.0]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) [rt.jar:1.8.0]
+	at java.lang.reflect.Method.invoke(Unknown Source) [rt.jar:1.8.0]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317) [spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) [spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) [spring-tx-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281) [spring-tx-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) [spring-tx-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207) [spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at com.sun.proxy.$Proxy35.findByKey(Unknown Source)
+	at com.test.CustomerServiceImpl.query(CustomerServiceImpl.java:26) [classes:]
+	at com.test.MyHttpServlet.service(MyHttpServlet.java:35) [classes:]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:295) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:231) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:149) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.jboss.as.jpa.interceptor.WebNonTxEmCloserValve.invoke(WebNonTxEmCloserValve.java:50) [jboss-as-jpa-7.4.0.Final-redhat-19.jar:7.4.0.Final-redhat-19]
+	at org.jboss.as.jpa.interceptor.WebNonTxEmCloserValve.invoke(WebNonTxEmCloserValve.java:50) [jboss-as-jpa-7.4.0.Final-redhat-19.jar:7.4.0.Final-redhat-19]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:169) [jboss-as-web-7.4.0.Final-redhat-19.jar:7.4.0.Final-redhat-19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:145) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:97) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:102) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:653) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:926) [jbossweb-7.4.8.Final-redhat-4.jar:7.4.8.Final-redhat-4]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0]
+
